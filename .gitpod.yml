@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: jelaniwoods/appdev-winter-20-very-best-debug
 
 tasks:
   - init: bin/setup
