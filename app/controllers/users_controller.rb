@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all.order(:created_at)
 
-    render({ :template => "users/all_users.html.erb"})
+    render({ :template => "user/all_users.html.erb"})
   end
   
   def show
