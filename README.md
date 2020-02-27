@@ -3,7 +3,7 @@
 ## Standard Workflow
 
   1. Welcome to your first Debug assignment 
-  1. The goal of this assigment is to make the code work by correcting all of the bugs the are contained within
+  1. The goal of this assignment is to make the code work by correcting all of the bugs that are contained within
   1. Checkout the target to see how your code should function
   1. Run `rails dev:prime` to populate your database
   1. Run `rails grade` to see everything that is currently broken
