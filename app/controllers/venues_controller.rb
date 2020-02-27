@@ -14,7 +14,7 @@ class VenuesController < ApplicationController
   end
 
   def create
-    venue = Venue.new
+    @venue = Venue.new
     venue.address = params.fetch("address")
     venue.name = params.fetch("name")
     venue.neighborhood = params.fetch("neighborhood")
@@ -26,9 +26,9 @@ class VenuesController < ApplicationController
   def update
     the_id = params.fetch("venue_id")
 
-    venue = Venue.where({ :id => the_id })
+    @venue = Venue.where({ :id => the_id })
     venue.address = params.fetch("input_address")
-    venue.name = params.fetch("input_name")
+    venue.name = params.fetch("Input_name")
     venue.neighborhood = params.fetch("input_neighborhood")
     venue.save
     
