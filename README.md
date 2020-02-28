@@ -1,13 +1,13 @@
 # Very Best Debug
 
-Here is the [target app]()
+Here is the [target app](https://very-best-debug.matchthetarget.com/)
 
 ## Debug each RCAV!
 There are 11 routes in this application. Currently, none of them work. Each RCAV is broken in some way.
 
 - Visit each route and **READ ANY ERROR MESSAGES YOU FIND**.
 - Once you've read and understood the error, debug the Route/Controller/Action/View and make the app function like the target.
-- Refer to the [routing chapter]() if you need a reminder on RCAV.
+- Refer to the [routing chapter](https://chapters.firstdraft.com/chapters/772) if you need a reminder on RCAV.
 - Examine the target to see how the app should behave.
 - Run `rails grade` when you are confident you've debugged a page. 
 
